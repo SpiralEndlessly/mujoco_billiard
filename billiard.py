@@ -68,4 +68,5 @@ mujoco.mj_resetDataKeyframe(model, data, key_id)
 # simulate
 while data.time < 1:
     mujoco.mj_step(model, data)
-    print(data.qpos)
+    print(data.qpos)  # print positions
+    # print(data.qvel) # print velocities
