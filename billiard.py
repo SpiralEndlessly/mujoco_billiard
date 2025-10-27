@@ -32,13 +32,13 @@ XML = r"""
         </body>
 
         <body name="object_1" pos="0 0 0.2">
-            <geom name="object_1_geom" type="sphere" size="0.2" rgba="0.8 0 0 1" contype="1" conaffinity="1" mass="2"/>
+            <geom name="object_1_geom" type="sphere" size="0.2" rgba="0 0.8 0 1" contype="1" conaffinity="1" mass="2"/>
             <joint name="object_1_slide_x" type="slide" axis="1 0 0" range="-3.0 3.0" damping="0"/>
             <joint name="object_1_slide_y" type="slide" axis="0 1 0" range="-3.0 3.0" damping="0"/>
         </body>
 
         <body name="object_2" pos="0 0 0.2">
-            <geom name="object_2_geom" type="sphere" size="0.2" rgba="0.8 0 0 1" contype="1" conaffinity="1" mass="2"/>
+            <geom name="object_2_geom" type="sphere" size="0.2" rgba="0 0 0.8 1" contype="1" conaffinity="1" mass="2"/>
             <joint name="object_2_slide_x" type="slide" axis="1 0 0" range="-3.0 3.0" damping="0"/>
             <joint name="object_2_slide_y" type="slide" axis="0 1 0" range="-3.0 3.0" damping="0"/>
         </body>
